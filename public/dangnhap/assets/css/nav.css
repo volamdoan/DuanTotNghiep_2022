@@ -1,0 +1,120 @@
+header{
+	position:absolute;
+	top:10px;
+	left:0;
+	width:100%;
+	/* Flex box definition */
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content: space-between;
+	z-index:10;
+	color:#555;
+}
+
+nav{
+	display:flex;
+}
+
+header nav{
+	padding-right:5%;
+}
+
+header a{
+	text-decoration:none;
+  color:#555;
+  font-size:17px;
+}
+nav li{
+	list-style: none;
+	margin-left:20px;
+}
+
+section:nth-of-type(2n+3){
+	background-color: #555;
+}
+
+@media all and (max-width: 640px){
+	header{
+		flex-direction: column;
+	}
+	nav{
+		margin:20px;
+	}
+}
+
+#wrapper.enlarged .topbar .topbar-left {
+    width: 70px !important;
+}
+
+#wrapper.enlarged .topbar .topbar-left .logo span {
+    display: none;
+    opacity: 0;
+}
+
+#wrapper.enlarged .topbar .topbar-left .logo i {
+    display: block;
+    line-height: 70px;
+    color: #7fc1fc !important;
+}
+.topbar {
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+	padding-left:5%;
+    z-index: 999;
+}
+.topbar .topbar-left {
+    background: #36404e;
+    float: left;
+    text-align: center;
+    height: 70px;
+    position: relative;
+    width: 225px;
+    z-index: 1;
+}
+
+.topbar-left span {
+	min-width:30px;
+	padding-left:5%;
+  }
+  .logo {
+    color: #555 !important;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 70px;
+}
+
+.logo i {
+    display: none;
+}
+
+.logo span span {
+    color: #7fc1fc;
+}
+#sidebar-menu>ul>li>a>span {
+    vertical-align: middle;
+}
+#wrapper.enlarged .left.side-menu #sidebar-menu ul>li:hover a span {
+    display: inline;
+}
+#wrapper.enlarged .left.side-menu #sidebar-menu ul ul li>a span.pull-right {
+    -ms-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    transform: rotate(270deg);
+}
+#wrapper.enlarged .left.side-menu #sidebar-menu ul>li>a span {
+    display: none;
+    padding-left: 10px;
+}
+#wrapper.enlarged .topbar .topbar-left .logo span {
+    display: none;
+    opacity: 0;
+}

@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.category .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 1.5rem;
+    padding: 4rem 0;
+}
+
+.category .box-container .box {
+    text-align: center;
+}
+
+.category .box-container .box img {
+    height: 120px;
+}
+
+.category .box-container .box h3 {
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: rgb(43, 25, 25);
+    --c: #121213;
+    /* the color */
+    --b: .1em;
+    /* border length*/
+    --d: 20px;
+    /* the cube depth */
+    --_s: calc(var(--d) + var(--b));
+    color: var(--c);
+    border: solid white;
+}
+
+.box-container ul li:hover img {
+    transform: scale(1.2);
+}
+
+.category .box-container .box:hover h3 {
+    transform: translate(0, 0);
+    clip-path: polygon(0% var(--d), var(--d) 0%, 100% 0%, 100% calc(100% - var(--d)), calc(100% - var(--d)) 100%, 0% 100%);
+    background: white;
+}
+
+h3 {
+    font-family: system-ui, sans-serif;
+    font-size: 2.2rem;
+    margin: 0;
+    cursor: pointer;
+    padding: 0 .1em;
+}
+
+@-webkit-keyframes my {
+    0% {
+        color: #f8550a;
+    }
+    50% {
+        color: rgb(12, 11, 11);
+    }
+    100% {
+        color: #76e636;
+    }
+}
+
+@-moz-keyframes my {
+    0% {
+        color: #f8550a;
+    }
+    50% {
+        color: rgb(12, 11, 11);
+    }
+    100% {
+        color: #76e636;
+    }
+}
+
+@-o-keyframes my {
+    0% {
+        color: #f8550a;
+    }
+    50% {
+        color: rgb(68, 42, 104);
+    }
+    100% {
+        color: #8ac207;
+    }
+}
+
+@keyframes my {
+    20% {
+        color: #1cbda2;
+    }
+    50% {
+        color: rgb(15, 15, 15);
+    }
+    70% {
+        color: #0a1af8;
+    }
+}
+
+.nhapnhay {
+    font-size: 25px;
+    font-weight: bold;
+    -webkit-animation: my 700ms infinite;
+    -moz-animation: my 800ms infinite;
+    -o-animation: my 700ms infinite;
+    animation: my 1200ms infinite;
+}
+
+
+/*# sourceMappingURL=style.css.map */

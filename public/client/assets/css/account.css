@@ -1,0 +1,75 @@
+
+body {  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.6em;
+  color: #000;
+  background-color: #fff;
+
+}
+.layout-info-account {padding-bottom:50px;}
+.title-infor-account{margin: 20px 0;}
+.title-infor-account h1{font-size: 37px;font-weight: 700;margin: 0;}
+.title-detail{
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	position: relative;
+	border-bottom: 1px solid #ededed;
+	padding-bottom:8px;
+}
+.name_account {font-weight: 500;font-size: 16px;line-height: 21px;margin:10px 0 5px}
+#customer_sidebar p{ margin-bottom: 0;font-size: 14px;}
+.customer-table-wrap {background: #f2f5fa; padding: 10px;}
+.customer-table-bg {background: #fff; padding: 10px;}
+.customer-table-bg p {margin:0;}
+#customer_orders table thead th, #order_details tr th { font-weight:600; font-size: 14px;}
+#customer_orders table tr a {
+	font-weight: 500;
+	float: left;
+	width: 85%;
+	margin-left: 3px;
+	line-height: 20px;
+	opacity: 0.66;
+}
+#view_address {font-weight: 500; opacity: 0.8;}
+#customer_orders,#order_payment, #order_shipping{ margin-bottom: 30px; margin-top: 30px;}
+.AccountTitle{
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	position: relative;
+}
+.AccountList ul > li > a {display: block;	position: relative;	padding: 5px 0px;}
+.AccountList ul > li > a:before {
+	content: "\f192";
+	font-family: "FontAwesome";
+	font-size: 8px;
+	display: inline-block;
+	margin-right: 8px;
+	vertical-align: 2px;
+}
+	.title-infor-account h1 {font-size: 30px;}
+	.AccountSidebar {margin-bottom: 40px;}
+	.table-responsive {padding: 0 8px;}
+	.AccountTitle{
+		text-transform: uppercase;
+		margin-bottom: 30px;
+		font-size: 15px;
+		font-weight: 700;
+		letter-spacing: 1px;
+		position: relative;
+	}
+	.AccountList ul > li > a {display: block;	position: relative;	padding: 5px 0px;}
+.AccountList ul > li > a:before {
+	content: "\f192";
+	font-family: "FontAwesome";
+	font-size: 8px;
+	display: inline-block;
+	margin-right: 8px;
+	vertical-align: 2px;
+}
